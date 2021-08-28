@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+a, a:hover{
+    list-style: none;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+}
+
+.header .nav-bar{
+    width: 80%;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.header .nav-bar .menu li{
+    margin-right: 30px;
+}
+
+
+.header .nav-bar .menu li a {
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 10px;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+
+.header .nav-bar .menu li a.active{
+    font-weight: 800;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
